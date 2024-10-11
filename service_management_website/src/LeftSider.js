@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Layout, Menu, message, Button } from 'antd';
-import { MenuOutlined } from '@ant-design/icons';
+import React, { useState } from 'react';
+import { Layout, Menu, message } from 'antd';
 
 const { Sider } = Layout;
 const { SubMenu } = Menu;
@@ -37,7 +36,6 @@ const menuData = [
 ];
 
 const LeftSider = () => {
-  const [isMobile, setIsMobile] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
 
   // Handler for menu item click
@@ -45,35 +43,15 @@ const LeftSider = () => {
     message.info(`Clicked: ${title} (Key: ${key})`);
   };
 
-  // Function to check window size
-  const handleResize = () => {
-    setIsMobile(window.innerWidth < 768); // Adjust the breakpoint as needed
-  };
-
-  useEffect(() => {
-    handleResize(); // Check on mount
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
   return (
     <Layout style={{ minHeight: '100vh' }}>
-      {/* Hamburger Button for mobile view */}
-      {isMobile && (
-        <Button
-          type="primary"
-          onClick={() => setCollapsed(!collapsed)}
-          style={{ marginBottom: 16 }}
-          icon={<MenuOutlined />}
-        />
-      )}
       {/* Sidebar */}
       <Sider
         width={200}
         className="site-layout-background"
         collapsible
         collapsed={collapsed}
-        onCollapse={(collapsed) => setCollapsed(collapsed)}
+        onCollapse={setCollapsed}
       >
         <Menu
           mode="inline"
