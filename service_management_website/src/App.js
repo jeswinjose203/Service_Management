@@ -1,7 +1,8 @@
 import React from 'react';
 import { Layout } from 'antd'; // Adjust this based on your component library
 import LeftSider from './LeftSider';
-const { Header, Sider, Content, Footer } = Layout;
+import AppFooter from './Footer';
+const { Header, Sider, Content } = Layout;
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
     <Content>main content</Content>
     <Sider>right sidebar</Sider>
   </Layout>
-  <Footer>footer</Footer>
+  <AppFooter/>
 </Layout>
     </div>
   );
