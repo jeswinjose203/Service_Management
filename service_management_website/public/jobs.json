@@ -1,1 +1,364 @@
 
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "company": "Tech Innovators",
+    "location": "San Francisco, CA",
+    "type": "full-time",
+    "description": "Develop and maintain web applications."
+  },
+  {
+    "id": 2,
+    "title": "Graphic Designer",
+    "company": "Creative Solutions",
+    "location": "New York, NY",
+    "type": "contract",
+    "description": "Create visual concepts to communicate ideas."
+  },
+  {
+    "id": 3,
+    "title": "Data Scientist",
+    "company": "Data Driven Inc.",
+    "location": "Boston, MA",
+    "type": "part-time",
+    "description": "Analyze and interpret complex data."
+  },
+  {
+    "id": 4,
+    "title": "Project Manager",
+    "company": "ManageIt",
+    "location": "Remote",
+    "type": "full-time",
+    "description": "Oversee project timelines and deliverables."
+  },
+  {
+    "id": 5,
+    "title": "DevOps Engineer",
+    "company": "Cloud Masters",
+    "location": "Austin, TX",
+    "type": "full-time",
+    "description": "Maintain cloud infrastructure."
+  },
+  {
+    "id": 6,
+    "title": "Product Designer",
+    "company": "DesignHub",
+    "location": "Seattle, WA",
+    "type": "contract",
+    "description": "Design user-centric products."
+  },
+  {
+    "id": 7,
+    "title": "Marketing Specialist",
+    "company": "Brand Builders",
+    "location": "Los Angeles, CA",
+    "type": "part-time",
+    "description": "Create marketing campaigns."
+  },
+  {
+    "id": 8,
+    "title": "HR Manager",
+    "company": "TalentWorks",
+    "location": "Chicago, IL",
+    "type": "full-time",
+    "description": "Manage HR operations and recruitment."
+  },
+  {
+    "id": 9,
+    "title": "Customer Support",
+    "company": "Help Desk Inc.",
+    "location": "Remote",
+    "type": "part-time",
+    "description": "Provide support to customers via phone and email."
+  },
+  {
+    "id": 10,
+    "title": "Sales Executive",
+    "company": "SalesForce",
+    "location": "Houston, TX",
+    "type": "full-time",
+    "description": "Drive sales growth for the company."
+  },
+  {
+    "id": 11,
+    "title": "UX Researcher",
+    "company": "User Experience Corp",
+    "location": "New York, NY",
+    "type": "contract",
+    "description": "Conduct user research to improve products."
+  },
+  {
+    "id": 12,
+    "title": "Content Writer",
+    "company": "Write Right",
+    "location": "San Diego, CA",
+    "type": "part-time",
+    "description": "Create engaging content for blogs and websites."
+  },
+  {
+    "id": 13,
+    "title": "Business Analyst",
+    "company": "BizAnalysis",
+    "location": "Remote",
+    "type": "full-time",
+    "description": "Analyze business processes and recommend improvements."
+  },
+  {
+    "id": 14,
+    "title": "IT Support Specialist",
+    "company": "TechHelp",
+    "location": "Phoenix, AZ",
+    "type": "part-time",
+    "description": "Provide IT support to clients."
+  },
+  {
+    "id": 15,
+    "title": "Finance Manager",
+    "company": "FinanceCorp",
+    "location": "Atlanta, GA",
+    "type": "full-time",
+    "description": "Manage the company's finances."
+  },
+  {
+    "id": 16,
+    "title": "QA Engineer",
+    "company": "QualityTech",
+    "location": "San Francisco, CA",
+    "type": "contract",
+    "description": "Test software for bugs and issues."
+  },
+  {
+    "id": 17,
+    "title": "Operations Manager",
+    "company": "OperateIt",
+    "location": "New York, NY",
+    "type": "full-time",
+    "description": "Oversee day-to-day operations."
+  },
+  {
+    "id": 18,
+    "title": "Social Media Manager",
+    "company": "SocialPulse",
+    "location": "Los Angeles, CA",
+    "type": "part-time",
+    "description": "Manage social media accounts and strategy."
+  },
+  {
+    "id": 19,
+    "title": "Mobile App Developer",
+    "company": "AppMakers",
+    "location": "Boston, MA",
+    "type": "full-time",
+    "description": "Develop and maintain mobile applications."
+  },
+  {
+    "id": 20,
+    "title": "SEO Specialist",
+    "company": "WebRank",
+    "location": "Chicago, IL",
+    "type": "contract",
+    "description": "Optimize websites for search engines."
+  },
+  {
+    "id": 21,
+    "title": "UI/UX Designer",
+    "company": "DesignStudio",
+    "location": "Los Angeles, CA",
+    "type": "full-time",
+    "description": "Design user interfaces and improve user experiences for mobile and web applications."
+  },
+  {
+    "id": 22,
+    "title": "Marketing Manager",
+    "company": "AdVantage",
+    "location": "Chicago, IL",
+    "type": "full-time",
+    "description": "Develop and implement marketing strategies to boost brand awareness."
+  },
+  {
+    "id": 23,
+    "title": "DevOps Engineer",
+    "company": "Cloud Masters",
+    "location": "Austin, TX",
+    "type": "full-time",
+    "description": "Maintain and scale cloud infrastructure for application deployment."
+  },
+  {
+    "id": 24,
+    "title": "Content Writer",
+    "company": "WriteWell",
+    "location": "Remote",
+    "type": "part-time",
+    "description": "Create blog posts, articles, and other content for digital platforms."
+  },
+  {
+    "id": 25,
+    "title": "Business Analyst",
+    "company": "TechConsult",
+    "location": "New York, NY",
+    "type": "contract",
+    "description": "Analyze business processes and provide solutions to improve efficiency."
+  },
+  {
+    "id": 26,
+    "title": "Social Media Specialist",
+    "company": "SocialBuzz",
+    "location": "Miami, FL",
+    "type": "full-time",
+    "description": "Manage social media channels and create engaging content."
+  },
+  {
+    "id": 27,
+    "title": "Technical Support Engineer",
+    "company": "SupportHub",
+    "location": "Remote",
+    "type": "full-time",
+    "description": "Provide technical support and troubleshooting for software products."
+  },
+  {
+    "id": 28,
+    "title": "HR Manager",
+    "company": "PeopleFirst",
+    "location": "Denver, CO",
+    "type": "full-time",
+    "description": "Manage recruitment, employee relations, and other HR operations."
+  },
+  {
+    "id": 29,
+    "title": "Sales Executive",
+    "company": "TopSales",
+    "location": "Phoenix, AZ",
+    "type": "contract",
+    "description": "Develop sales strategies and drive business growth by acquiring new clients."
+  },
+  {
+    "id": 30,
+    "title": "Web Developer",
+    "company": "WebWizards",
+    "location": "Seattle, WA",
+    "type": "part-time",
+    "description": "Develop and maintain websites using modern web technologies."
+  },
+  {
+    "id": 31,
+    "title": "Network Administrator",
+    "company": "NetSecure",
+    "location": "San Diego, CA",
+    "type": "full-time",
+    "description": "Manage and troubleshoot network infrastructure."
+  },
+  {
+    "id": 32,
+    "title": "Cybersecurity Analyst",
+    "company": "SecureTech",
+    "location": "Dallas, TX",
+    "type": "full-time",
+    "description": "Monitor and secure systems against cyber threats."
+  },
+  {
+    "id": 33,
+    "title": "Operations Manager",
+    "company": "EffiCo",
+    "location": "Houston, TX",
+    "type": "full-time",
+    "description": "Oversee day-to-day operations to ensure organizational efficiency."
+  },
+  {
+    "id": 34,
+    "title": "Mobile App Developer",
+    "company": "AppWorks",
+    "location": "San Francisco, CA",
+    "type": "contract",
+    "description": "Develop mobile applications for iOS and Android platforms."
+  },
+  {
+    "id": 35,
+    "title": "Data Analyst",
+    "company": "DataInsights",
+    "location": "Boston, MA",
+    "type": "full-time",
+    "description": "Analyze data and provide actionable insights for business decisions."
+  },
+  {
+    "id": 36,
+    "title": "Product Manager",
+    "company": "InnovateTech",
+    "location": "Seattle, WA",
+    "type": "full-time",
+    "description": "Manage product lifecycle and coordinate between departments."
+  },
+  {
+    "id": 37,
+    "title": "Customer Service Representative",
+    "company": "HelpDesk",
+    "location": "Orlando, FL",
+    "type": "part-time",
+    "description": "Assist customers with inquiries and support issues."
+  },
+  {
+    "id": 38,
+    "title": "Financial Analyst",
+    "company": "FinancePros",
+    "location": "New York, NY",
+    "type": "full-time",
+    "description": "Analyze financial data and create reports for investment strategies."
+  },
+  {
+    "id": 39,
+    "title": "SEO Specialist",
+    "company": "WebRank",
+    "location": "Remote",
+    "type": "contract",
+    "description": "Optimize websites to improve search engine rankings."
+  },
+  {
+    "id": 40,
+    "title": "Event Coordinator",
+    "company": "EventPlanners",
+    "location": "Chicago, IL",
+    "type": "full-time",
+    "description": "Plan and execute corporate events and conferences."
+  },
+  {
+    "id": 41,
+    "title": "Video Editor",
+    "company": "CreativeVideos",
+    "location": "Los Angeles, CA",
+    "type": "part-time",
+    "description": "Edit video content for social media and marketing purposes."
+  },
+  {
+    "id": 42,
+    "title": "Accountant",
+    "company": "Accountify",
+    "location": "Phoenix, AZ",
+    "type": "full-time",
+    "description": "Manage financial statements, tax filings, and audits."
+  },
+  {
+    "id": 43,
+    "title": "Legal Assistant",
+    "company": "LawFirm LLP",
+    "location": "Boston, MA",
+    "type": "contract",
+    "description": "Assist attorneys with legal documentation and case management."
+  },
+  {
+    "id": 44,
+    "title": "Supply Chain Coordinator",
+    "company": "SupplyWorks",
+    "location": "Houston, TX",
+    "type": "full-time",
+    "description": "Manage and optimize the supply chain process."
+  },
+  {
+    "id": 45,
+    "title": "AI Researcher",
+    "company": "FutureTech AI",
+    "location": "Remote",
+    "type": "full-time",
+    "description": "Research and develop AI models for various applications."
+  }
+
+]
