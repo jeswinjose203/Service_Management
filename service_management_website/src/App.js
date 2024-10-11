@@ -1,20 +1,29 @@
 import React from 'react';
-import { Layout } from 'antd'; // Adjust this based on your component library
-const { Header, Sider, Content, Footer } = Layout;
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Layout } from 'antd';
+import Header from './Header';
+import Settings from './Settings'; // Import the Settings component
+
+const { Sider, Content, Footer } = Layout;
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Layout>
-  <Header>header</Header>
-  <Layout>
-    <Sider>left sidebar</Sider>
-    <Content>main content</Content>
-    <Sider>right sidebar</Sider>
-  </Layout>
-  <Footer>footer</Footer>
-</Layout>
-    </div>
+        <Header />
+        <Layout>
+          <Sider>left sidebar</Sider>
+          <Content>
+            <Routes>
+              <Route path="/" element={<div>Main content</div>} />
+              <Route path="/settings" element={<Settings />} /> {/* Route to Settings */}
+            </Routes>
+          </Content>
+          <Sider>right sidebar</Sider>
+        </Layout>
+        <Footer>footer</Footer>
+      </Layout>
+    </Router>
   );
 }
 
