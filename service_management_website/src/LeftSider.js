@@ -1,5 +1,6 @@
-import React from 'react';
-import { Layout, Menu, message } from 'antd';
+import React, { useState, useEffect } from 'react';
+import { Layout, Menu, message, Button } from 'antd';
+import { MenuOutlined } from '@ant-design/icons';
 
 const { Sider } = Layout;
 const { SubMenu } = Menu;
@@ -36,33 +37,64 @@ const menuData = [
 ];
 
 const LeftSider = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  const [collapsed, setCollapsed] = useState(false);
+
   // Handler for menu item click
   const handleMenuClick = (key, title) => {
-    // Display the key and title using Ant Design message
     message.info(`Clicked: ${title} (Key: ${key})`);
   };
 
+  // Function to check window size
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 768); // Adjust the breakpoint as needed
+  };
+
+  useEffect(() => {
+    handleResize(); // Check on mount
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
-    <Sider width={200} className="site-layout-background">
-      <Menu
-        mode="inline"
-        defaultSelectedKeys={['1']}
-        style={{ height: '100%', borderRight: 0 }}
+    <Layout style={{ minHeight: '100vh' }}>
+      {/* Hamburger Button for mobile view */}
+      {isMobile && (
+        <Button
+          type="primary"
+          onClick={() => setCollapsed(!collapsed)}
+          style={{ marginBottom: 16 }}
+          icon={<MenuOutlined />}
+        />
+      )}
+      {/* Sidebar */}
+      <Sider
+        width={200}
+        className="site-layout-background"
+        collapsible
+        collapsed={collapsed}
+        onCollapse={(collapsed) => setCollapsed(collapsed)}
       >
-        {menuData.map((subMenu) => (
-          <SubMenu key={subMenu.key} title={subMenu.title}>
-            {subMenu.items.map((item) => (
-              <Menu.Item
-                key={item.key}
-                onClick={() => handleMenuClick(item.key, item.title)}
-              >
-                {item.title}
-              </Menu.Item>
-            ))}
-          </SubMenu>
-        ))}
-      </Menu>
-    </Sider>
+        <Menu
+          mode="inline"
+          defaultSelectedKeys={['1']}
+          style={{ height: '100%', borderRight: 0 }}
+        >
+          {menuData.map((subMenu) => (
+            <SubMenu key={subMenu.key} title={subMenu.title}>
+              {subMenu.items.map((item) => (
+                <Menu.Item
+                  key={item.key}
+                  onClick={() => handleMenuClick(item.key, item.title)}
+                >
+                  {item.title}
+                </Menu.Item>
+              ))}
+            </SubMenu>
+          ))}
+        </Menu>
+      </Sider>
+    </Layout>
   );
 };
 
