@@ -7,7 +7,7 @@ import MainContent from './MainContent'; // Main content component
 import Settings from './Settings'; // Settings component
 import AppFooter from './Footer'; // Footer component
 
-const { Sider, Content } = Layout;
+const { Content } = Layout;
 
 function App() {
   return (
@@ -19,10 +19,9 @@ function App() {
 
           {/* Main Layout with Sidebar and Content */}
           <Layout>
-            {/* Left Sidebar */}
-            <Sider width={200} style={{ background: '#fff' }}>
+
               <LeftSider />
-            </Sider>
+
 
             {/* Main Content Area with Routes */}
             <Content style={{ padding: '24px', background: '#fff' }}>
@@ -32,10 +31,8 @@ function App() {
               </Routes>
             </Content>
 
-            {/* Right Sidebar */}
-            <Sider width={200} style={{ background: '#fff' }}>
-              <div>Right Sidebar Content</div>
-            </Sider>
+
+
           </Layout>
 
           {/* Footer */}
