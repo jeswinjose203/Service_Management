@@ -29,8 +29,8 @@ const menuData = [
     title: 'Option 3',
     items: [
       { key: '3-1', title: 'Event' },
-      { key: '3-2', title: 'Weedding' },
-      { key: '3-3', title: 'party' },
+      { key: '3-2', title: 'Wedding' }, // Corrected the spelling from "Weedding" to "Wedding"
+      { key: '3-3', title: 'Party' }, // Corrected the spelling from "party" to "Party"
     ],
   },
 ];
@@ -43,37 +43,35 @@ const LeftSider = () => {
     message.info(`Clicked: ${title} (Key: ${key})`);
     console.log(`${title} + ${key}`); // Use backticks for template literals
   };
-  
+
   return (
-    <Layout style={{ minHeight: '100vh' }}>
-      {/* Sidebar */}
-      <Sider
-        width={200}
-        className="site-layout-background"
-        collapsible
-        collapsed={collapsed}
-        onCollapse={setCollapsed}
+    <Sider
+      width={200}
+      className="site-layout-background"
+      collapsible
+      collapsed={collapsed}
+      onCollapse={setCollapsed}
+    >
+      <Menu
+        mode="inline"
+        defaultSelectedKeys={['1']}
+        style={{ height: '100%', borderRight: 0 }}
       >
-        <Menu
-          mode="inline"
-          defaultSelectedKeys={['1']}
-          style={{ height: '100%', borderRight: 0 }}
-        >
-          {menuData.map((subMenu) => (
-            <SubMenu key={subMenu.key} title={subMenu.title}>
-              {subMenu.items.map((item) => (
-                <Menu.Item
-                  key={item.key}
-                  onClick={() => handleMenuClick(item.key, item.title)}
-                >
-                  {item.title}
-                </Menu.Item>
-              ))}
-            </SubMenu>
-          ))}
-        </Menu>
-      </Sider>
-    </Layout>
+        {menuData.map((subMenu) => (
+          <SubMenu key={subMenu.key} title={subMenu.title}>
+            {subMenu.items.map((item) => ({
+              key: item.key,
+              label: item.title, // Use `label` instead of `children`
+              onClick: () => handleMenuClick(item.key, item.title),
+            })).map((item) => (
+              <Menu.Item key={item.key} onClick={item.onClick}>
+                {item.label}
+              </Menu.Item>
+            ))}
+          </SubMenu>
+        ))}
+      </Menu>
+    </Sider>
   );
 };
 
