@@ -10,27 +10,27 @@ const menuData = [
     key: 'sub1',
     title: 'Option 1',
     items: [
-      { key: '1-1', title: 'Sub Option 1' },
-      { key: '1-2', title: 'Sub Option 2' },
-      { key: '1-3', title: 'Sub Option 3' },
+      { key: '1-1', title: 'Plumbing' },
+      { key: '1-2', title: 'Electric work' },
+      { key: '1-3', title: 'House Cleaning' },
     ],
   },
   {
     key: 'sub2',
     title: 'Option 2',
     items: [
-      { key: '2-1', title: 'Sub Option 1' },
-      { key: '2-2', title: 'Sub Option 2' },
-      { key: '2-3', title: 'Sub Option 3' },
+      { key: '2-1', title: 'Car' },
+      { key: '2-2', title: 'Bike' },
+      { key: '2-3', title: 'Appliance' },
     ],
   },
   {
     key: 'sub3',
     title: 'Option 3',
     items: [
-      { key: '3-1', title: 'Sub Option 1' },
-      { key: '3-2', title: 'Sub Option 2' },
-      { key: '3-3', title: 'Sub Option 3' },
+      { key: '3-1', title: 'Event' },
+      { key: '3-2', title: 'Weedding' },
+      { key: '3-3', title: 'party' },
     ],
   },
 ];
@@ -41,8 +41,9 @@ const LeftSider = () => {
   // Handler for menu item click
   const handleMenuClick = (key, title) => {
     message.info(`Clicked: ${title} (Key: ${key})`);
+    console.log(`${title} + ${key}`); // Use backticks for template literals
   };
-
+  
   return (
     <Layout style={{ minHeight: '100vh' }}>
       {/* Sidebar */}
