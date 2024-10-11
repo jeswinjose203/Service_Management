@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layout } from 'antd'; // Adjust this based on your component library
+import LeftSider from './LeftSider';
 const { Header, Sider, Content, Footer } = Layout;
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <Layout>
   <Header>header</Header>
   <Layout>
-    <Sider>left sidebar</Sider>
+    <LeftSider/>
     <Content>main content</Content>
     <Sider>right sidebar</Sider>
   </Layout>
