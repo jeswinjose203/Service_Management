@@ -1,372 +1,182 @@
-
 [
   {
     "id": 1,
-    "title": "Software Engineer",
+    "title": "plumbing",
     "company": "Tech Innovators",
     "location": "San Francisco, CA",
     "type": "full-time",
-    "description": "Develop and maintain web applications."
+    "description": "Develop and maintain web applications.",
+    "cash": "₹85,000"
   },
   {
     "id": 2,
-    "title": "Graphic Designer",
+    "title": "house_cleaning",
     "company": "Creative Solutions",
     "location": "New York, NY",
     "type": "contract",
-    "description": "Create visual concepts to communicate ideas."
+    "description": "Create visual concepts to communicate ideas.",
+    "cash": "₹45,000"
   },
   {
     "id": 3,
-    "title": "Data Scientist",
+    "title": "electric_work",
     "company": "Data Driven Inc.",
     "location": "Boston, MA",
     "type": "part-time",
-    "description": "Analyze and interpret complex data."
+    "description": "Analyze and interpret complex data.",
+    "cash": "₹33,000"
   },
   {
     "id": 4,
-    "title": "Project Manager",
+    "title": "house_cleaning",
     "company": "ManageIt",
     "location": "Remote",
     "type": "full-time",
-    "description": "Oversee project timelines and deliverables."
+    "description": "Oversee project timelines and deliverables.",
+    "cash": "₹72,000"
   },
   {
     "id": 5,
-    "title": "DevOps Engineer",
+    "title": "plumbing",
     "company": "Cloud Masters",
     "location": "Austin, TX",
     "type": "full-time",
-    "description": "Maintain cloud infrastructure."
+    "description": "Maintain cloud infrastructure.",
+    "cash": "₹90,000"
   },
   {
     "id": 6,
-    "title": "Product Designer",
+    "title": "electric_work",
     "company": "DesignHub",
     "location": "Seattle, WA",
     "type": "contract",
-    "description": "Design user-centric products."
+    "description": "Design user-centric products.",
+    "cash": "₹55,000"
   },
   {
     "id": 7,
-    "title": "Marketing Specialist",
+    "title": "house_cleaning",
     "company": "Brand Builders",
     "location": "Los Angeles, CA",
     "type": "part-time",
-    "description": "Create marketing campaigns."
+    "description": "Create marketing campaigns.",
+    "cash": "₹29,000"
   },
   {
     "id": 8,
-    "title": "HR Manager",
+    "title": "plumbing",
     "company": "TalentWorks",
     "location": "Chicago, IL",
     "type": "full-time",
-    "description": "Manage HR operations and recruitment."
+    "description": "Manage HR operations and recruitment.",
+    "cash": "₹82,000"
   },
   {
     "id": 9,
-    "title": "Customer Support",
+    "title": "house_cleaning",
     "company": "Help Desk Inc.",
     "location": "Remote",
     "type": "part-time",
-    "description": "Provide support to customers via phone and email."
+    "description": "Provide support to customers via phone and email.",
+    "cash": "₹25,000"
   },
   {
     "id": 10,
-    "title": "Sales Executive",
+    "title": "electric_work",
     "company": "SalesForce",
     "location": "Houston, TX",
     "type": "full-time",
-    "description": "Drive sales growth for the company."
+    "description": "Drive sales growth for the company.",
+    "cash": "₹88,000"
   },
   {
     "id": 11,
-    "title": "UX Researcher",
+    "title": "house_cleaning",
     "company": "User Experience Corp",
     "location": "New York, NY",
     "type": "contract",
-    "description": "Conduct user research to improve products."
+    "description": "Conduct user research to improve products.",
+    "cash": "₹47,000"
   },
   {
     "id": 12,
-    "title": "Content Writer",
+    "title": "plumbing",
     "company": "Write Right",
     "location": "San Diego, CA",
     "type": "part-time",
-    "description": "Create engaging content for blogs and websites."
+    "description": "Create engaging content for blogs and websites.",
+    "cash": "₹39,000"
   },
   {
     "id": 13,
-    "title": "Business Analyst",
+    "title": "electric_work",
     "company": "BizAnalysis",
     "location": "Remote",
     "type": "full-time",
-    "description": "Analyze business processes and recommend improvements."
+    "description": "Analyze business processes and recommend improvements.",
+    "cash": "₹78,000"
   },
   {
     "id": 14,
-    "title": "IT Support Specialist",
+    "title": "house_cleaning",
     "company": "TechHelp",
     "location": "Phoenix, AZ",
     "type": "part-time",
-    "description": "Provide IT support to clients."
+    "description": "Provide IT support to clients.",
+    "cash": "₹21,000"
   },
   {
     "id": 15,
-    "title": "Finance Manager",
+    "title": "plumbing",
     "company": "FinanceCorp",
     "location": "Atlanta, GA",
     "type": "full-time",
-    "description": "Manage the company's finances."
+    "description": "Manage the company's finances.",
+    "cash": "₹99,000"
   },
   {
     "id": 16,
-    "title": "QA Engineer",
+    "title": "electric_work",
     "company": "QualityTech",
     "location": "San Francisco, CA",
     "type": "contract",
-    "description": "Test software for bugs and issues."
+    "description": "Test software for bugs and issues.",
+    "cash": "₹58,000"
   },
   {
     "id": 17,
-    "title": "Operations Manager",
+    "title": "house_cleaning",
     "company": "OperateIt",
     "location": "New York, NY",
     "type": "full-time",
-    "description": "Oversee day-to-day operations."
+    "description": "Oversee day-to-day operations.",
+    "cash": "₹74,000"
   },
   {
     "id": 18,
-    "title": "Social Media Manager",
+    "title": "electric_work",
     "company": "SocialPulse",
     "location": "Los Angeles, CA",
     "type": "part-time",
-    "description": "Manage social media accounts and strategy."
+    "description": "Manage social media accounts and strategy.",
+    "cash": "₹30,000"
   },
   {
     "id": 19,
-    "title": "Mobile App Developer",
+    "title": "plumbing",
     "company": "AppMakers",
     "location": "Boston, MA",
     "type": "full-time",
-    "description": "Develop and maintain mobile applications."
+    "description": "Develop and maintain mobile applications.",
+    "cash": "₹95,000"
   },
   {
     "id": 20,
-    "title": "SEO Specialist",
+    "title": "electric_work",
     "company": "WebRank",
     "location": "Chicago, IL",
     "type": "contract",
-    "description": "Optimize websites for search engines."
-  },
-  {
-    "id": 21,
-    "title": "UI/UX Designer",
-    "company": "DesignStudio",
-    "location": "Los Angeles, CA",
-    "type": "full-time",
-    "description": "Design user interfaces and improve user experiences for mobile and web applications."
-  },
-  {
-    "id": 22,
-    "title": "Marketing Manager",
-    "company": "AdVantage",
-    "location": "Chicago, IL",
-    "type": "full-time",
-    "description": "Develop and implement marketing strategies to boost brand awareness."
-  },
-  {
-    "id": 23,
-    "title": "DevOps Engineer",
-    "company": "Cloud Masters",
-    "location": "Austin, TX",
-    "type": "full-time",
-    "description": "Maintain and scale cloud infrastructure for application deployment."
-  },
-  {
-    "id": 24,
-    "title": "Content Writer",
-    "company": "WriteWell",
-    "location": "Remote",
-    "type": "part-time",
-    "description": "Create blog posts, articles, and other content for digital platforms."
-  },
-  {
-    "id": 25,
-    "title": "Business Analyst",
-    "company": "TechConsult",
-    "location": "New York, NY",
-    "type": "contract",
-    "description": "Analyze business processes and provide solutions to improve efficiency."
-  },
-  {
-    "id": 26,
-    "title": "Social Media Specialist",
-    "company": "SocialBuzz",
-    "location": "Miami, FL",
-    "type": "full-time",
-    "description": "Manage social media channels and create engaging content."
-  },
-  {
-    "id": 27,
-    "title": "Technical Support Engineer",
-    "company": "SupportHub",
-    "location": "Remote",
-    "type": "full-time",
-    "description": "Provide technical support and troubleshooting for software products."
-  },
-  {
-    "id": 28,
-    "title": "HR Manager",
-    "company": "PeopleFirst",
-    "location": "Denver, CO",
-    "type": "full-time",
-    "description": "Manage recruitment, employee relations, and other HR operations."
-  },
-  {
-    "id": 29,
-    "title": "Sales Executive",
-    "company": "TopSales",
-    "location": "Phoenix, AZ",
-    "type": "contract",
-    "description": "Develop sales strategies and drive business growth by acquiring new clients."
-  },
-  {
-    "id": 30,
-    "title": "Web Developer",
-    "company": "WebWizards",
-    "location": "Seattle, WA",
-    "type": "part-time",
-    "description": "Develop and maintain websites using modern web technologies."
-  },
-  {
-    "id": 31,
-    "title": "Network Administrator",
-    "company": "NetSecure",
-    "location": "San Diego, CA",
-    "type": "full-time",
-    "description": "Manage and troubleshoot network infrastructure."
-  },
-  {
-    "id": 32,
-    "title": "Cybersecurity Analyst",
-    "company": "SecureTech",
-    "location": "Dallas, TX",
-    "type": "full-time",
-    "description": "Monitor and secure systems against cyber threats."
-  },
-  {
-    "id": 33,
-    "title": "Operations Manager",
-    "company": "EffiCo",
-    "location": "Houston, TX",
-    "type": "full-time",
-    "description": "Oversee day-to-day operations to ensure organizational efficiency."
-  },
-  {
-    "id": 34,
-    "title": "Mobile App Developer",
-    "company": "AppWorks",
-    "location": "San Francisco, CA",
-    "type": "contract",
-    "description": "Develop mobile applications for iOS and Android platforms."
-  },
-  {
-    "id": 35,
-    "title": "Data Analyst",
-    "company": "DataInsights",
-    "location": "Boston, MA",
-    "type": "full-time",
-    "description": "Analyze data and provide actionable insights for business decisions."
-  },
-  {
-    "id": 36,
-    "title": "Product Manager",
-    "company": "InnovateTech",
-    "location": "Seattle, WA",
-    "type": "full-time",
-    "description": "Manage product lifecycle and coordinate between departments."
-  },
-  {
-    "id": 37,
-    "title": "Customer Service Representative",
-    "company": "HelpDesk",
-    "location": "Orlando, FL",
-    "type": "part-time",
-    "description": "Assist customers with inquiries and support issues."
-  },
-  {
-    "id": 38,
-    "title": "Financial Analyst",
-    "company": "FinancePros",
-    "location": "New York, NY",
-    "type": "full-time",
-    "description": "Analyze financial data and create reports for investment strategies."
-  },
-  {
-    "id": 39,
-    "title": "SEO Specialist",
-    "company": "WebRank",
-    "location": "Remote",
-    "type": "contract",
-    "description": "Optimize websites to improve search engine rankings."
-  },
-  {
-    "id": 40,
-    "title": "Event Coordinator",
-    "company": "EventPlanners",
-    "location": "Chicago, IL",
-    "type": "full-time",
-    "description": "Plan and execute corporate events and conferences."
-  },
-  {
-    "id": 41,
-    "title": "Video Editor",
-    "company": "CreativeVideos",
-    "location": "Los Angeles, CA",
-    "type": "part-time",
-    "description": "Edit video content for social media and marketing purposes."
-  },
-  {
-    "id": 42,
-    "title": "Accountant",
-    "company": "Accountify",
-    "location": "Phoenix, AZ",
-    "type": "full-time",
-    "description": "Manage financial statements, tax filings, and audits."
-  },
-  {
-    "id": 43,
-    "title": "Legal Assistant",
-    "company": "LawFirm LLP",
-    "location": "Boston, MA",
-    "type": "contract",
-    "description": "Assist attorneys with legal documentation and case management."
-  },
-  {
-    "id": 44,
-    "title": "Supply Chain Coordinator",
-    "company": "SupplyWorks",
-    "location": "Houston, TX",
-    "type": "full-time",
-    "description": "Manage and optimize the supply chain process."
-  },
-  {
-    "id": 45,
-    "title": "AI Researcher",
-    "company": "FutureTech AI",
-    "location": "Remote",
-    "type": "full-time",
-    "description": "Research and develop AI models for various applications."
-  },
-  {
-    "id": 46,
-    "title": "Plumber",
-    "company": "ABC",
-    "location": "On Site",
-    "type": "full-time",
-    "description": "Research and develop AI models for various  plumbing applications."
+    "description": "Optimize websites for search engines.",
+    "cash": "₹42,000"
   }
-
 ]
